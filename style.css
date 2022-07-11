@@ -61,7 +61,7 @@ a {
     margin-top: 140px;
 }
 
-.flaxing {
+.flexing {
     display: flex;
 }
 
@@ -72,6 +72,7 @@ a {
     border: 3px solid rgb(215, 54, 54);
     border-radius: 5px;
 }
+
 
 small {
     font-size: 20px;
@@ -114,4 +115,25 @@ small {
     padding: 50px 30px 10px 30px;
     margin-left: 2%;
     border-radius: 10px;
+}
+
+.want-help {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 15%;
+    margin-top: 150px;
+    width: 75%;
+}
+
+.help-want {
+    width: 40%;
+    padding-left: 10px;
+}
+
+.want-img {
+    width: 60%;
+}
+
+.img-want {
+    width: 100%;
 }
