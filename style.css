@@ -52,6 +52,11 @@ a {
     padding-top: 60px;
 }
 
+.alin-container {
+    text-align: center;
+    margin-top: 130px;
+}
+
 .flaxing {
     display: flex;
 }
@@ -66,9 +71,4 @@ a {
 
 small {
     font-size: 20px;
-}
-
-.alin-container {
-    text-align: center;
-    border-bottom: 2px solid rgb(168, 151, 128);
 }
