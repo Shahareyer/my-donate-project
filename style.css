@@ -1,9 +1,12 @@
 .banner {
     background-image: url(images/donation4.jpg);
     background-size: cover;
+    height: 800px;
     text-align: center;
-    height: 700px;
-    padding-top: 200px;
+}
+
+.banner-font {
+    padding-top: 170px;
 }
 
 h1 {
@@ -11,16 +14,61 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-size: 47px;
+}
+
+h3 {
+    margin-left: 65px;
+    font-size: 38px;
+    background-color: whitesmoke;
+    padding: 45px 28px 45px 28px;
+    border-radius: 5px;
+}
+
+#amount-container {
+    margin-left: 170px;
+}
+
 p {
     font-family: 'Comfortaa', cursive;
     color: white;
 }
 
+.paragraph {
+    color: rgb(168, 151, 128);
+}
+
 a {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 15px 40px;
+    background-color: rgb(225, 63, 63);
+    padding: 20px 40px;
     font-size: 20px;
     color: white;
     border-radius: 7px;
+}
+
+.button {
+    padding-top: 60px;
+}
+
+.flaxing {
+    display: flex;
+}
+
+#selact-many {
+    color: rgb(226, 63, 63);
+    background-color: rgb(250, 207, 214);
+    padding: 45px 28px 45px 28px;
+    border: 3px solid rgb(215, 54, 54);
+    border-radius: 5px;
+}
+
+small {
+    font-size: 20px;
+}
+
+.alin-container {
+    text-align: center;
+    border-bottom: 2px solid rgb(168, 151, 128);
 }
