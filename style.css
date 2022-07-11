@@ -19,15 +19,19 @@ h2 {
 }
 
 h3 {
-    margin-left: 65px;
+    margin-left: 35px;
     font-size: 38px;
     background-color: whitesmoke;
     padding: 45px 28px 45px 28px;
     border-radius: 5px;
 }
 
+h4 {
+    font-size: 30px;
+}
+
 #amount-container {
-    margin-left: 170px;
+    margin-left: 265px;
 }
 
 p {
@@ -54,7 +58,7 @@ a {
 
 .alin-container {
     text-align: center;
-    margin-top: 130px;
+    margin-top: 140px;
 }
 
 .flaxing {
@@ -71,4 +75,43 @@ a {
 
 small {
     font-size: 20px;
+}
+
+#medicine-img {
+    height: 60px;
+    width: 60px;
+}
+
+.donate-plan {
+    display: flex;
+    width: 80%;
+    margin-top: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.food {
+    width: 100%;
+    background-color: rgb(102, 244, 244);
+    text-align: left;
+    padding: 50px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+.medicine {
+    width: 100%;
+    background-color: rgb(249, 203, 211);
+    text-align: left;
+    padding: 50px 30px 10px 30px;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.shelter {
+    width: 100%;
+    background-color: rgb(251, 234, 214);
+    text-align: left;
+    padding: 50px 30px 10px 30px;
+    margin-left: 2%;
+    border-radius: 10px;
 }
