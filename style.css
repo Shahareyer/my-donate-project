@@ -136,10 +136,11 @@ small {
 
 .img-want {
     width: 100%;
+    border-radius: 8px;
 }
 
 .backgrund-status {
-    background-color: aqua;
+    background-color: rgb(71, 243, 243);
     padding-bottom: 50px;
 }
 
@@ -154,7 +155,7 @@ small {
     padding-right: 15%;
     width: 75%;
     padding-top: 20px;
-    /* padding-top: 50px; */
+
 }
 
 .child-story {
@@ -165,4 +166,28 @@ small {
 
 #child-img {
     height: 490px
+}
+
+.shadow-section {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    width: 75%;
+    margin-left: 165px;
+    padding-top: 50px;
+}
+
+.shadow-container {
+    width: 93%;
+    box-shadow: 5px 5px 5px 3px gray;
+    margin-top: 4%;
+    text-align: justify;
+    border-radius: 5px;
+    border: 2px;
+    padding: 30px 10px 50px 10px;
+
+}
+
+.shadow-heading {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
 }
