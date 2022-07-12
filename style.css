@@ -127,13 +127,42 @@ small {
 
 .help-want {
     width: 40%;
-    padding-left: 10px;
+    padding-left: 1%;
 }
 
 .want-img {
-    width: 60%;
+    width: 59%;
 }
 
 .img-want {
     width: 100%;
+}
+
+.backgrund-status {
+    background-color: aqua;
+    padding-bottom: 50px;
+}
+
+#heading-status {
+    margin-left: 150px;
+    padding-top: 40px;
+}
+
+.child-container {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 15%;
+    width: 75%;
+    padding-top: 20px;
+    /* padding-top: 50px; */
+}
+
+.child-story {
+    width: 40%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+#child-img {
+    height: 490px
 }
