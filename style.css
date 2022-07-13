@@ -234,13 +234,22 @@ small {
 }
 
 .footer {
-    background-color: black;
-    height: 200px;
-    text-align: center;
+    background-color: rgb(138, 60, 246);
+    height: 300px;
+    display: flex;
+    margin-top: 80px;
 }
 
 #footer-heading {
-    color: red;
+    color: white;
     padding-top: 50px;
     font-family: 'Edu VIC WA NT Beginner', cursive;
+    width: 40%;
+    padding-left: 25px;
+}
+
+ul {
+    list-style: none;
+    padding-top: 100px;
+    width: 28%;
 }
