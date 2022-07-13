@@ -253,3 +253,8 @@ ul {
     padding-top: 100px;
     width: 28%;
 }
+
+#list {
+    font-size: 20px;
+    color: white;
+}
